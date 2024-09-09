@@ -17,7 +17,7 @@ body{
     font-weight: 900;
 }
 .greetings > span{
-    animation: glow 2.5s ease-in-out forwards;
+    animation: glow 0.5s ease-in-out forwards;
 }
 @keyframes glow{
     0%, 100%{
