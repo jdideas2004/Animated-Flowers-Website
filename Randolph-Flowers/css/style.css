@@ -22,12 +22,12 @@ body{
 }
 @keyframes glow{
     0%, 100%{
-        opacity: 0;
+        
         color: #fff;
         text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
     }
     10%, 90%{
-        opacity: 1;
+        
         color: #111;
         text-shadow: none;
     }
