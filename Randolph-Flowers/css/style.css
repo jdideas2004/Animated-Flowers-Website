@@ -12,6 +12,39 @@ body{
     justify-content: center;
     background-color: black;
 }
+@keyframes moonRotation {
+    0% {
+        background-position: 0% 0%;
+        border: 0px solid #00000000;
+    }
+    50% {
+        background-position: 150% 0%;
+        border: 0px solid #00000000;
+    }
+    100% {
+        background-position: 300% 0%;
+        border: 0px solid #00000000;
+    }
+}
+
+.moon-background {
+    position: absolute;
+    top: 10%;
+    right: 50%;
+    transform: translateX(50%);
+    display: block;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    background-image: url('https://www.solarsystemscope.com/textures/download/2k_moon.jpg');
+    background-repeat: repeat-x;
+    background-size: 110% 100%;
+    animation: moonRotation 15s linear infinite;
+    box-shadow: inset -10px 8px 6px -5px #ffffff, 
+                inset 20px -20px 40px 30px rgba(0, 0, 0, 0.9), 
+                7px -6px 14px rgba(255, 255, 255, 0.32);
+    z-index: 0;
+}
 .greetings{
     font-size: 6rem;
     font-weight: 900;
