@@ -52,13 +52,19 @@ body {
 .flowers {
   position: relative;
   transform: scale(0.9);
-}
+  
 @keyframes moonRotation {
-    from {
-        transform: translateX(50%) rotate(0deg);
+    0% {
+        background-position: 0% 0%;
+        border: 0px solid #00000000;
     }
-    to {
-        transform: translateX(50%) rotate(360deg);
+    50% {
+        background-position: 150% 0%;
+        border: 0px solid #00000000;
+    }
+    100% {
+        background-position: 300% 0%;
+        border: 0px solid #00000000;
     }
 }
 
