@@ -36,8 +36,8 @@ body {
     right: 50%;
     transform: translateX(50%);
     display: block;
-    width: 20rem;
-    height: 20rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
     background-image: url('https://www.solarsystemscope.com/textures/download/2k_moon.jpg');
     background-repeat: repeat-x;
