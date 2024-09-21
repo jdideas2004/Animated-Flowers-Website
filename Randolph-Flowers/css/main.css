@@ -53,6 +53,14 @@ body {
   position: relative;
   transform: scale(0.9);
 }
+@keyframes moonRotation {
+    from {
+        transform: translateX(50%) rotate(0deg);
+    }
+    to {
+        transform: translateX(50%) rotate(360deg);
+    }
+}
 
 .flower {
   position: absolute;
